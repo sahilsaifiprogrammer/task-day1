@@ -1,0 +1,58 @@
+Q-1,     what is method overloading?
+Ans-> method overloading is a technique in which you can define multiple method with the same name but diffrent parameter.
+method overloading can be possible on the following basis->
+1.the number of parameter is passed to the function.
+2.the type of parameter is passed to the function.
+
+
+
+Q-2,   how do you handle divided by zero?
+Ans->By checking if the divisor is zero before performing the division.
+
+
+
+Q-3,   Difference between == and .equals()?
+== checks if two references point to the same object in memory.
+.equals() compares the actual content of the objects.
+
+
+
+Q-4, what are the basic data type in java?
+Ans-> there are two type of data type.
+1.Primitive data type.(int,long,short,char,float double,boolean,byte)
+ 2.non Primitive data type.(String,array,class,object);
+
+
+
+ Q-5-> how is Scanner used for input?
+Ans->  Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+
+
+
+Q-6->Explain the role of a loop?
+Ans->  loops are used to execute a peace of code again and again.
+
+
+
+Q-7,  Difference between while and for loop?
+Ans->   for loop->for loop concise a way to iterate over a code using an initialization,condition and updation we comonly used it when the number of iteration is known before hand.
+while loop-> the while loop control flow structure and allow a piece of code to be executed as long as a particular condition is true.
+
+
+
+
+Q-8->  what is the jvm?
+Ans--> (java virtual machine) JVM it is an abstract machine which provide a runtime environment in which java bytecode can be executed.
+
+
+
+Q-9->  how is the java platform independent?
+Ans->  Java code is compiled to bytecode, which can run on any platform having a JVM.
+
+
+
+Q-10->  How do you debug a java program?
+
+Ans->  By using System.out.println() for print-debugging, or using a debugger tool in an IDE like VS Code.
